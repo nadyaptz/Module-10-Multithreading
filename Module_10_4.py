@@ -74,11 +74,10 @@ guests_names = [
     'Maria', 'Oleg', 'Vakhtang', 'Sergey', 'Darya', 'Arman',
     'Vitoria', 'Nikita', 'Galina', 'Pavel', 'Ilya', 'Alexandra'
 ]
-print(guests_names)
+
 # Создание гостей
 guests = [Guest(name) for name in guests_names]
-print(guests[0], guests[1], guests[3], guests[4])
-print(guests[0].guest_name)
+
 # Заполнение кафе столами
 cafe = Cafe(*tables)
 # Приём гостей
